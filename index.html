@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js" ></script>
+    <title>Gaher</title>
+</head>
+<body>
+    <nav class="nav">
+        
+        <ul class="navbar">
+            <li class="nav-item">
+                <a class="nav-link" href="">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#informacion">Informacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <img src="./imagenes/logo4.png" alt="">
+        <div class="divSobreNos titulos">
+            <h1>Gaher</h1>
+            <h1>Venta Minorista y Mayorista</h1>
+        </div>
+    </header>
+    
+    <section class="informacion" id="informacion">
+        <div class="divSobreNos">
+            <h3>¿Quienes somos?</h3>
+            <p>GaHer es una empresa familiar dedicada a la distribucion minorista y mayorista de bebidas.</p>
+            <p>            </p>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section class="carrusel">   
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <a href="https://www.instagram.com/p/C2SV2D0utMU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                  <img src="./imagenes/COCA-COLA.png" class="imgCarrusell">
+              </a>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <a href="https://www.instagram.com/p/C2hsrmpu2KF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                <img src="./imagenes/PEPSI-ISOTÓNICA-ENERGIZANTE.png" class="imgCarrusell">
+             </a>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <a href="https://www.instagram.com/p/C2c7oWEOWBz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                  <img src="./imagenes/AGUAS-SABORIZADAS.png" class="imgCarrusell">
+              </a>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <a href="https://www.instagram.com/p/C2aIikuucDl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="./imagenes/CERVEZAS.png" class="imgCarrusell">
+                </a>
+              </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+    </section >
+
+    <br>
+    <br>
+    <div class="ubicacion">
+        <h3>Ubicacion</h3>
+        <br>
+        <iframe class="iframeUbi" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13128.449966595539!2d-58.6752909!3d-34.6518619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf65f7215555%3A0xa8b12b6e85981e9f!2sDistribuidora%20Gaher!5e0!3m2!1ses-419!2sar!4v1704474720444!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <p>Bacacay 1166 entre Brandsen y Pirán, Ituzaingó, Argentina</p>
+    </div>
+    <!-- consultar y observar a modo de "estudio" la pagina de distribuidora echeverria II guiño guiño -->
+    <footer id="contacto">
+        <section class="sectionContacto">
+            <div class="infoWsp">
+                <h3>Contacto</h3>
+                <br>
+                <div class="redesDiv">
+                    <div class="redesDiv">
+                        <a class="redes" href="https://wa.me/541130420608" target="_blank">
+                            <img src="./imagenes/wspicon.png" alt="">
+                            Contacto: + 54 11 3042 0608
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="redesDiv">
+                        <a class="redes" href="https://www.instagram.com/gaherbebidas?igsh=NzNudWZ5em9lem1y" target="_blank">
+                            <img src="./imagenes/igicon.png" alt="">
+                            @gaher
+                        </a>
+                    </div>
+                    <br>
+                    <br>               
+                    <div class="redesDiv">
+                        <a class="redes" href="https://www.facebook.com/gaher2022" target="_blank">
+                            <img src="./imagenes/fbicon.png" alt="">
+                            Bebidas Gaher
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="Dias">
+                <h3>Horarios</h3>
+                <br>
+                <div class="divDias">
+                    <p class="pDias" id="pDias">Lunes: 9:00am a 17:00pm</p>
+                    <p class="pDias" id="pDias">Martes: 9:00am a 17:00pm</p>
+                    <p class="pDias" id="pDias">Miércoles: 9:00am a 17:00pm</p>
+                    <p class="pDias" id="pDias">Jueves: 9:00am a 17:00pm</p>
+                    <p class="pDias" id="pDias">Viernes: 9:00am a 17:00pm</p>
+                    <p class="pDias" id="pDias">Sábado: 9:00am a 14:00pm</p>
+                    <p class="pDias" id="pDias">Domingo: Cerrado</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <br>
+    <p class="marcaRegis">GaHer es una marca registrada</p>
+</body>
+</html>
